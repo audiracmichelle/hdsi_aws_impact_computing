@@ -1,16 +1,25 @@
-# MkDocs Starter (Material theme)
+# HDSI AWS Impact Computing
 
-A minimal MkDocs setup (no notebooks).
+## Install MkDocs (locally)
 
-## Prereqs
-- Python 3.9+
-
-## Local usage
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+pip install mkdocs-material
+```
+
+## Run the local dev server
+
+```bash
 mkdocs serve
+```
+
+Open http://127.0.0.1:8000 and edit files under `docs/` — it live reloads.
+
+## Build the static site
+
+```bash
+mkdocs build --strict
 ```
 
 ## Deploying to GitHub Pages
