@@ -1,0 +1,32 @@
+site_name: HDSI AWS Impact Computing
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+nav:
+  - Home: 
+      - Welcome: welcome.md
+      - What Lives Here: what-lives-here.md
+  - How‑tos:
+      - Getting Started: getting-started.md
+      - AWS Credits: aws-credits.md
+      - Getting Help: getting-help.md
+  - Runbooks:
+      - Sample Runbook: sample-runbook.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+extra:
+  social:
+    - icon: material/github
+      link: https://github.com/your-org/your-repo
