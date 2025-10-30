@@ -1,6 +1,6 @@
 # Getting Started
 
-## How do I access to AWS solutions via Harvard?
+## How do I access AWS solutions via Harvard?
 
 These are the main routes:
 
